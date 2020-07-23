@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="header-content">
+                <a href="">Gmail</a>
+            </div>
+            <div class="header-content">
+                <a href="">Imagens</a>
+            </div>
+            <div class="header-content">
+                <img src="menu.png" alt="" width="15" height="15">
+            </div>
+            <div class="header-content">
+                <img src="photo.jpg" alt="" class="logo">
+            </div>
+        </header>
+
+        <section>
+            <div class="wrap">
+                <div class="logo">
+                    <img src="logo.png" height="92" alt="">
+                </div>
+                <div class="input">
+                    <form action="https://google.com/search" method="GET">
+                        <input type="text" name="q">
+                        <input name="num" value="10" type="hidden">  <!-- número de resultado-->
+
+                        <div class="btn">
+                            <button type="submit" name="btnK"> Google Search </button>
+                            <button type="submit" name="btnI"> I’m Feeling Lucky </button>
+                        </div>
+                    </form>
+                </div>
+                
+                
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-header">
+                <span>Brasil</span>
+            </div>
+            <div class="footer-settings">
+                <span class="span-left">
+                    <a href="">Publicidade</a>
+                    <a href="">Negócios</a>
+                    <a href="">Sobre</a>
+                </span>
+                <span class="span-right">
+                    <a href="">Privacidade</a>
+                    <a href="">Termos</a>
+                    <a href="">Configurações</a>
+                </span>
+            </div>
+        </footer>
+
+        <br>
+
+        <form action="https://www.google.com/search" class="LOU5Ne" data-submitfalse="q" id="tsf" method="GET" name="gs" role="search"> 
+            <div class="input">
+                <input type="text" name="q">
+                <input type="submit" value="Google Search"><i>imagem</i>
+                <input name="safe" value="active" type="hidden"> <!-- Pesquisa protegida de conteúno inapropriado--><i></i>
+                <input name="tbm" value="isch" type="hidden">
+            </div>
+        </form>
+
+        <br>
+
+        <form action="https://google.com/search" class="LOU5Ne" data-submitfalse="q" id="tsf" method="GET" name="gs" role="search">
+            <div >
+                                
+                <div>
+                    <label>all these words:</label>
+                    <input value autofocus="autofocus" name="as_q" type="text">  
+                </div>
+                <div>
+                    <label>this exact word or phrase:</label>
+                    <input value autofocus="autofocus" name="as_epq" type="text">  
+                </div>
+                <div>
+                    <label>any of these words:</label>
+                    <input value autofocus="autofocus" name="as_oq" type="text">  
+                </div>
+                <div>
+                    <label>none of these words:</label>
+                    <input value autofocus="autofocus" name="as_eq" type="text">  
+                </div>
+                <div >
+                    <input type="submit" value="Advanced Search"> <i>Avançado</i>
+                </div>
+                
+            </div>
+        </form>
+    </body>
+</html>
